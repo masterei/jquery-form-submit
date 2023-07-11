@@ -1,0 +1,25 @@
+{
+  "name": "@masterei/jquery-form-submit",
+  "version": "1.0.0",
+  "description": "An ajax form wrapper plugin for easy submit of the form data.",
+  "main": "form-submit.js",
+  "scripts": {
+    "build": "uglifyjs form-submit.js -c -m -o form-submit.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterei/jquery-form-submit.git"
+  },
+  "keywords": [
+    "form-submit"
+  ],
+  "author": "Rei Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterei/jquery-form-submit/issues"
+  },
+  "homepage": "https://github.com/masterei/jquery-form-submit#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
