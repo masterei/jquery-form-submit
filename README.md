@@ -91,7 +91,7 @@ afterRequest: function (form){
 
 ```javascript
 done: function (response) {
-    options.notify.notifySuccess(response.message);
+    options.notify.success(response.message);
 
     // reload page on post request
     if(isMethodPost()){
@@ -101,7 +101,7 @@ done: function (response) {
     }
 },
 fail: function (error) {
-    options.notify.alert.notifyError(error);
+    options.notify.error(error);
 },
 always: function (xhr) {
     /**

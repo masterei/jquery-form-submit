@@ -9,7 +9,7 @@ $(function () {
              */
             options = $.extend({
                 notify: {
-                    notifySuccess: function (message, title = 'Success!'){
+                    success: function (message, title = 'Success!'){
                         new PNotify({
                             title: title,
                             text: message,
@@ -17,7 +17,7 @@ $(function () {
                             type: 'success'
                         });
                     },
-                    notifyError: function (message, title = 'Error!'){
+                    error: function (message, title = 'Error!'){
                         // object type data
                         if(message.hasOwnProperty('responseJSON')){
 
@@ -94,7 +94,7 @@ $(function () {
                     method: requestMethod(),
                     data: requestData(),
                     done: function (response) {
-                        options.notify.notifySuccess(response.message);
+                        options.notify.success(response.message);
 
                         // reload page on post request
                         if(isMethodPost()){
@@ -104,7 +104,7 @@ $(function () {
                         }
                     },
                     fail: function (error) {
-                        options.notify.alert.notifyError(error);
+                        options.notify.error(error);
                     },
                     always: function (xhr) {
                         /**
