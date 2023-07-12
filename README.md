@@ -2,8 +2,9 @@
 
     An ajax form wrapper plugin to ease form submit event.
 
-[![npm version](https://badge.fury.io/js/@masterei/jquery-form-submit.svg)](https://badge.fury.io/js/@masterei/jquery-form-submit)
-![NPM Downloads](https://img.shields.io/npm/dw/@masterei/jquery-form-submit)
+![npm (scoped)](https://img.shields.io/npm/v/%40masterei/jquery-form-submit)
+![NPM Downloads](https://img.shields.io/npm/dt/@masterei/jquery-form-submit)
+![jsDelivr hits (npm scoped)](https://img.shields.io/jsdelivr/npm/hy/%40masterei/jquery-form-submit)
 ![NPM License](https://img.shields.io/npm/l/@masterei/jquery-form-submit)
 
 ## Dependencies
@@ -11,8 +12,8 @@
 This project requires the following dependencies: `jQuery & PNotify`
 
 ```html
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script src="https://unpkg.com/pnotify@3.2.0/dist/pnotify.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pnotify@3.2.0/dist/pnotify.js"></script>
 ```
 
 ## Installation
@@ -24,7 +25,7 @@ $ npm i @masterei/query-form-submit
 
 ### cdn
 ```html
-<script src="https://unpkg.com/@masterei/jquery-form-submit/form-submit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@masterei/jquery-form-submit/form-submit.min.js"></script>
 ```
 
 ## Usage

@@ -1,3 +1,9 @@
+/*
+jquery-form-submit v1.0.0
+https://github.com/masterei/jquery-form-submit
+Copyright (c) Masterei <mastereijunior@gmail.com>
+The Internet Systems Consortium License (ISC)
+*/
 $(function () {
     $.fn.extend({
         formSubmit: function (options = {}, reload = 1500){
