@@ -29,7 +29,7 @@ $ npm i @masterei/query-form-submit
 
 ## Usage
 
-### Basic
+### Basic Usage
 ```html
 <form id="sample-form" method="POST" data-url="/post.php">
     <input type="text" name="sample_input">
@@ -50,7 +50,7 @@ Eg. ['message' => 'Model has been successfully created.']
 
 2. If no response data is being returned, the plugin will use its default messages.
 
-### Options Usage
+### Option Usage
 ```javascript
 $('form#sample-form').formSubmit({
     url: '/post.php',
