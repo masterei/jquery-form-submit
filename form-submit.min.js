@@ -1,5 +1,5 @@
 /*
-jquery-form-submit v1.0.0
+jquery-form-submit v1.0.1
 https://github.com/masterei/jquery-form-submit
 Copyright (c) Masterei <mastereijunior@gmail.com>
 The Internet Systems Consortium License (ISC)
