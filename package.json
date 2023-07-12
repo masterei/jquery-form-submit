@@ -1,6 +1,6 @@
 {
   "name": "@masterei/jquery-form-submit",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An ajax form wrapper plugin to ease form submit event.",
   "main": "form-submit.js",
   "scripts": {

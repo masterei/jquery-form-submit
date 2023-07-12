@@ -1,0 +1,7 @@
+/.fleet
+/.idea
+/.vscode
+docs
+node_modules
+.editorconfig
+.gitattributes
