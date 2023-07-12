@@ -73,7 +73,7 @@ $('form#sample-form').formSubmit({
 
 Note: You can freely utilize all the ajax shipped configuration and callback functions.
 
-### Additional Callback Events
+### Additional Events
 ```javascript
 beforeRequest: function (form){
     // triggered before ajax request is started, allows you to modify the form data
@@ -87,7 +87,7 @@ afterRequest: function (form){
 }
 ```
 
-### Default Callback Events
+### Default Callbacks
 
 ```javascript
 done: function (response) {
