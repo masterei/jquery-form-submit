@@ -13,7 +13,10 @@
   "keywords": [
     "form-submit"
   ],
-  "author": "Rei Junior",
+  "author": {
+      "name": "Rey Arnejo Jr.",
+      "email": "mastereijunior@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/masterei/jquery-form-submit/issues"
