@@ -32,7 +32,7 @@ npm i @masterei/jquery-form-submit
 
 ### Basic Usage
 ```html
-<form id="sample-form" method="POST" data-url="/post.php">
+<form id="sample-form" method="POST" action="/post.php">
     <input type="text" name="sample_input">
 </form>
 
