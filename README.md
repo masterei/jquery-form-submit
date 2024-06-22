@@ -20,7 +20,7 @@ This project requires the following dependencies: `jQuery & PNotify`
 
 ### npm
 ```sh
-$ npm i @masterei/query-form-submit
+npm i @masterei/jquery-form-submit
 ```
 
 ### cdn
