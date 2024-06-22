@@ -74,7 +74,7 @@ $('form#sample-form').formSubmit({
 
 Note: You can freely utilize all the default ajax configuration and callback functions.
 The best example is when you don't want to use the `PNotify` plugin wherein you can freely 
-replace the default `done()` and `fail()` callback so that it will suit to your needs.
+override the default `done()` and `fail()` callback so that it will suit to your needs.
 
 ### Additional Events
 ```javascript
